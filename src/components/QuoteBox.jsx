@@ -2,7 +2,9 @@ import React from 'react'
 
 function QuoteBox() {
   return (
-    <div id="quote-box"></div>
+    <div id="quote-box">
+      <div id="text"></div>
+    </div>
   );
 }
 
