@@ -14,8 +14,8 @@ function QuoteBox() {
 
   return (
     <div id="quote-box">
-      <div id="text"></div>
-      <div id="author"></div>
+      <div id="text">{ quote.quote }</div>
+      <div id="author">{ quote.author }</div>
       <button type="button" id="new-quote">new quote</button>
       <a href="#" id="tweet-quote">tweet quote</a>
     </div>
