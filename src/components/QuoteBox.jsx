@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import getQuotes from '../services/requestAPI';
 
 function QuoteBox() {
   const [quote, getQuote] = useState([]);
