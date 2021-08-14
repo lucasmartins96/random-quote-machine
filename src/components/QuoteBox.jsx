@@ -6,7 +6,7 @@ function QuoteBox() {
       <div id="text"></div>
       <div id="author"></div>
       <button type="button" id="new-quote">new quote</button>
-      <a href="#"></a>
+      <a href="#" id="tweet-quote">tweet quote</a>
     </div>
   );
 }
