@@ -1,6 +1,8 @@
 import React from 'react'
 
 function QuoteBox() {
+  const [quote, getQuote] = useState([]);
+
   return (
     <div id="quote-box">
       <div id="text"></div>
