@@ -22,7 +22,14 @@ function QuoteBox() {
       <div id="text">{ quote.quote }</div>
       <div id="author">{ quote.author }</div>
       <button type="button" id="new-quote" onClick={ fetchNewQuote }>new quote</button>
-      <a href="#" id="tweet-quote">tweet quote</a>
+      <a
+        href="http://twitter.com/intent/tweet"
+        target="_blank"
+        rel="noreferrer"
+        id="tweet-quote"
+      >
+        tweet quote
+      </a>
     </div>
   );
 }
