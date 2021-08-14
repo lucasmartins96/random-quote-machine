@@ -4,6 +4,14 @@ import getQuotes from '../services/requestAPI';
 function QuoteBox() {
   const [quote, getQuote] = useState([]);
 
+  useEffect(() => {
+    const makeRequest = async () => {
+      const apiResponse = await getQuotes();
+      getQuote(apiResponse);
+    }
+    makeRequest();
+  }, []);
+
   return (
     <div id="quote-box">
       <div id="text"></div>
